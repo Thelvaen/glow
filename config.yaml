@@ -1,0 +1,14 @@
+scenarios:
+  - name: "VR"
+    actions:
+      - tab: "A"
+        cmds:
+          - "wivrn-dashboard"
+      - tab: "B"
+        cmds:
+          - "VRCAdvert"
+          - "oscavmgr"
+      - wait: 30
+      - tab: "A"
+        cmds:
+          - "wlx-dashboard"
